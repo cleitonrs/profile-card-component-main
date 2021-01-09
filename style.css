@@ -94,7 +94,7 @@ body {
 }
 
 .item {
-    flex: 1;
+    flex: auto;
     font-weight: 400;
     color: hsl(227, 10%, 46%);
     font-size: 12px;

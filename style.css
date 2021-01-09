@@ -12,21 +12,21 @@ body {
 
 .bgTop {
     position: fixed;
-    width: 50%;
+    width: 60%;
     top: -50vh;
     left: -10rem;
 }
 
 .bgBottom {
     position: fixed;
-    width: 50%;
+    width: 60%;
     bottom: -50vh;
     right: -10rem;
 }
 
 .profile-card {
-    width: 350px;
-    border-radius: 12px;
+    width: 400px;
+    border-radius: 15px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -53,24 +53,31 @@ body {
 .card-body {
     height: 150px;
     background-color: white;
+
+}
+
+.person-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
 }
 
 .name {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-weight: 700;
     font-size: 18px;
     color: hsl(229, 23%, 23%);
+    margin-right: 10px;
 }
 
-.desc {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%);
-    color: hsl(227, 10%, 46%);
+.age {
+    font-weight: 400;
+    font-size: 18px;
+    color:hsl(227, 10%, 46%);
+}
+
+.place {
+    color:hsl(227, 10%, 46%);
+    margin-top: 10px;
 }
 
 .card-footer {
@@ -99,6 +106,12 @@ span {
     font-size: 18px;
     color: hsl(229, 23%, 23%);
     padding: 3px;
+}
+
+footer {
+    width: 100vw;
+    position: fixed;
+    bottom: 10px;
 }
 
 .attribution { 

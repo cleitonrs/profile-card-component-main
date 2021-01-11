@@ -122,11 +122,7 @@ footer {
     color: hsl(227, 10%, 46%); 
 }
 
-@media (min-width: 375px) {
-
-    body {
-        max-width: 375px;
-    }
+@media (max-width: 400px) {
 
     .bgTop {
         position: fixed;
@@ -143,6 +139,7 @@ footer {
     }
 
     .profile-card {
-        width: 330px;
+        width: 250px;
+        
     }
-}
+}     

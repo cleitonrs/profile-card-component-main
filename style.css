@@ -13,19 +13,19 @@ body {
 .bgTop {
     position: fixed;
     width: 60%;
-    top: -50vh;
+    top: -75vh;
     left: -10rem;
 }
 
 .bgBottom {
     position: fixed;
     width: 60%;
-    bottom: -50vh;
+    bottom: -75vh;
     right: -10rem;
 }
 
 .profile-card {
-    width: 400px;
+    width: 350px;
     border-radius: 15px;
     position: absolute;
     top: 50%;

@@ -10,14 +10,14 @@ body {
     background-color:hsl(185, 75%, 39%);
 }
 
-.bgTop {
+.imgTop {
     position: fixed;
     width: 60%;
     top: -75vh;
     left: -10rem;
-}
+} 
 
-.bgBottom {
+.imgBottom {
     position: fixed;
     width: 60%;
     bottom: -75vh;
@@ -124,14 +124,14 @@ footer {
 
 @media (max-width: 400px) {
 
-    .bgTop {
+    .imgTop {
         position: fixed;
         width: 200%;
         top: -50vh;
         left: -33rem;
     }
     
-    .bgBottom {
+    .imgBottom {
         position: fixed;
         width: 200%;
         bottom: -50vh;
